@@ -1,1 +1,4 @@
-ssh -R 80:localhost:8080 serveo.net
+#!/bin/bash
+# myfile.sh
+
+ssh -R $1:localhost:$2 serveo.net
