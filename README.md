@@ -21,4 +21,4 @@ Before starting, ensure you have SSH installed on your machine. This script is d
 Clone this repository to get started:
 
 ```bash
-git clone <link-to-your-repository>
+git clone https://github.com/oyin25/serveonet-termux.git
