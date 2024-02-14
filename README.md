@@ -39,12 +39,13 @@ chmod +x serveo.sh
 
 Execute the script with the desired local and remote ports as arguments:
 
-```bash
+```
 ./hosted.sh [local-port] [remote-port]
-
+```
 
 For instance, if you want to forward your local port 8080 to be accessible via port 80 on the internet through Serveo.net:
 
 
-```bash
+```
 ./hosted.sh 80 8080
+```
