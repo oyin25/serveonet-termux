@@ -33,7 +33,7 @@ cd serveonet-termux
 Next, identify the script you wish to run (for the sake of this guide, let's assume your script is named serveo.sh). You will need to make it executable:
 
 ````
-chmod +x serveo.sh
+chmod +x hosted.sh
 ````
 
 ### Usage
