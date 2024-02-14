@@ -20,32 +20,33 @@ Before starting, ensure you have SSH installed on your machine. This script is d
 
 Clone this repository to get started:
 
-```bash
+````
 git clone https://github.com/oyin25/serveonet-termux.git
+````
 
 After cloning, navigate into the project directory:
 
-```bash
+````
 cd serveonet-termux
-
+````
 
 Next, identify the script you wish to run (for the sake of this guide, let's assume your script is named serveo.sh). You will need to make it executable:
 
-```bash
+````
 chmod +x serveo.sh
-
+````
 
 ### Usage
 
 Execute the script with the desired local and remote ports as arguments:
 
-```
+````
 ./hosted.sh [local-port] [remote-port]
-```
+````
 
 For instance, if you want to forward your local port 8080 to be accessible via port 80 on the internet through Serveo.net:
 
 
-```
+````
 ./hosted.sh 80 8080
-```
+````
